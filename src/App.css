@@ -1,0 +1,73 @@
+body {
+  background:rgb(22, 22, 22);;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main-section {
+  background: transparent;
+  max-width: 600px;
+  width: 90%;
+  height: 500px;
+  margin: 30px auto;
+}
+
+.clock-holder {
+  width: 100%;
+  background: rgb(22, 22, 22);
+  margin: 30px auto;
+  position: relative;
+}
+
+
+.stopwatch {
+  padding: 80px 0px;
+  text-align: center;
+}
+.stopwatch span{
+ 
+  color: #fff;
+  display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 80px;
+  padding: 20px;
+  width: 100px;
+}
+
+.stopwatch .stopwatch-btn {
+  background: #fff;
+  margin-top: 30px;
+  margin-left: 5px;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: none;
+  border-radius:50%;
+  padding: 12px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.stopwatch .stopwatch-btn-red{
+  border: 6px double  rgb(22, 22, 22);
+  color: rgb(246, 33, 33);
+  justify-content: center;
+  background-color: rgb(80, 26, 26);
+}
+.stopwatch .stopwatch-btn-yel{
+  border: 6px double rgb(22, 22, 22);
+  color: rgb(253, 253, 253);
+  background-color: rgb(83, 82, 82);
+}
+
+.stopwatch .stopwatch-btn-gre{
+  border: 6px double rgb(22, 22, 22);
+  color: rgb(28, 251, 8);
+  background-color: rgb(26, 54, 26);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
